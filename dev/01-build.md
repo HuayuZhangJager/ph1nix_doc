@@ -1,9 +1,9 @@
 # Build/Compile source code of this project
 
 ## Set up Developing Environment
-Currently only support building x86 `target` (32bit) (i386/80386 machine) with [GNU toolchain](https://www.gnu.org/software/software.html).
+Currently only support building x86 `TARGET` (32bit) (i386/80386 machine) with [GNU toolchain](https://www.gnu.org/software/software.html).
 
-(Comment/Uncomment `env var` in Makefile for quick set up)
+(Comment/Uncomment `TARGET` and 'host building machine'in Makefile for quick set up)
 
 ### Linux/[WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions)
 
