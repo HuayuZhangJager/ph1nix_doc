@@ -20,8 +20,8 @@ Currently only support building x86 `TARGET` (32bit) (i386/80386 machine) with [
 - Apple Silicon Chips
 
   - use [Homebrew](https://brew.sh) install
-    - for elf32-i386 target (32bit OS developing): 'i686-elf-binutils', 'i686-elf-gcc', 'i386-elf-gdb' and `nasm`
-    - for elf64-x86-64 target: 'x86_64-elf-binutils', 'x86_64-elf-gcc', 'x86_64-elf-gdb' and `nasm`
+    - for elf32-i386 target (32bit OS developing): `i686-elf-binutils`, `i686-elf-gcc`, `i386-elf-gdb` and `nasm`
+    - for elf64-x86-64 target: `x86_64-elf-binutils`, `x86_64-elf-gcc`, `x86_64-elf-gdb` and `nasm`
 
   - the system `$PATH` should be set to `/opt/homebrew/bin` for Apple Silicon Mac
 
